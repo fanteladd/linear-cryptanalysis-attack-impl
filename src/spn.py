@@ -58,7 +58,7 @@ def encrypt(x,sbox,keyschedule):
 
 def decrypt(y,sbox,keyschedule):
     """
-    Given a cipher text of 16 bits, an sbox, and a list containing the key schedule given by a key k,
+    Given a 16-bit cipher text, an sbox, and a list containing the key schedule given by a key k,
     returns a 16-bit plain text obtained using key k
     """
     u = y.copy()
